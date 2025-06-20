@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 
 # ========== CONFIGURASI ==========
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")  # Ambil dari Railway Variables
-WEBHOOK_URL = os.getenv("https://diligent-charisma.railway.app", "")  # Optional untuk webhook
+WEBHOOK_URL = os.getenv("https://delightful-comfort.railway.app", "")  # Optional untuk webhook
 PORT = int(os.getenv("PORT", 8443))  # Port default Railway
 WEBAPP_URL = "https://rebrand.ly/betseruok"  # Ganti dengan URL website Anda
 LIVECHAT_URL = "https://direct.lc.chat/17082348/"
