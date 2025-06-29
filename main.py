@@ -8,6 +8,7 @@ WEBHOOK_URL = os.getenv("https://delightful-comfort.railway.app", "")  # Optiona
 PORT = int(os.getenv("PORT", 8443))  # Port default Railway
 WEBAPP_URL = "https://t.ly/bswin"  # Ganti dengan URL website Anda
 LIVECHAT_URL = "https://direct.lc.chat/17082348/"
+RTP_URL = "https://rtpbetserupalinggacor.pages.dev/"
 # ========== HANDLER COMMAND ==========
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
@@ -22,6 +23,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # Buat tombol
         keyboard = [
             [InlineKeyboardButton("▶️ PLAY NOW", url=WEBAPP_URL)],
+            [InlineKeyboardButton("🤑 RTP TERBARU", url=RTP_URL)],
             [InlineKeyboardButton("📚 LIVECHAT", url=LIVECHAT_URL)]
         ]
         await update.message.reply_text(
