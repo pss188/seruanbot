@@ -8,7 +8,7 @@ WEBHOOK_URL = os.getenv("https://delightful-comfort.railway.app", "")  # Optiona
 PORT = int(os.getenv("PORT", 8443))  # Port default Railway
 WEBAPP_URL = "https://t.ly/bswin"  # Ganti dengan URL website Anda
 LIVECHAT_URL = "https://direct.lc.chat/17082348/"
-RTP_URL = "https://rtpbetserupalinggacor.pages.dev/"
+RTP_URL = "https://rtpbetserugacor.pages.dev/"
 # ========== HANDLER COMMAND ==========
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
